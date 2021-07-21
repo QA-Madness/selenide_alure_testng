@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" parallel="tests" thread-count="2">
+    <groups>
+        <run>
+        </run>
+    </groups>
+    <test name="Regression1">
+        <packages>
+            <package name="tests.thread_1"/>
+        </packages>
+    </test>
+    <test name="Regression2">
+        <packages>
+            <package name="tests.thread_2"/>
+        </packages>
+    </test>
+</suite>
+
