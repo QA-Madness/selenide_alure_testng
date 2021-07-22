@@ -108,6 +108,7 @@
                 <configuration>
                     <resultsDirectory>${basedir}/target/allure-results</resultsDirectory>
                     <reportDirectory>${basedir}/target/allure-reports</reportDirectory>
+                    <reportVersion>2.6.0</reportVersion>
                     <!--<reportingOutputDirectory>${basedir}/target/allure-reportsssss</reportingOutputDirectory>-->
                 </configuration>
             </plugin>
